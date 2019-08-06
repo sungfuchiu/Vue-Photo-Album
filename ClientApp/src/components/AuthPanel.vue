@@ -39,6 +39,7 @@ export default{
                 email: this.email,
                 password: this.password
             };
+          this.$emit("auth-panel-submit", payload);
             console.log("submit auth");
             console.dir(payload);
         }

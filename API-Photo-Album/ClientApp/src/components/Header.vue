@@ -14,6 +14,7 @@
 </template>
 
 <script>
+  import axios from "axios";
 export default{
     data(){
         return {
@@ -37,7 +38,59 @@ export default{
         },
         handleLogout: function(){
             console.log("logout");
+      },
+      handleAuthState: function (payload) {
+        console.dir(payload);
+        var action = payload.action;
+        if (action == "login") {
+          this.isLogin = true;
+          this.userEmail = JSON.parse(
+            localStorage.getItem("photo-album-user")
+          ).email;
+        } else if (action == "logout") {
+          this.isLogin = false;
+          this.userEmail = "";
         }
+      },
+      handleLogout: function () {
+        console.log("logout");
+        const sessionData = JSON.parse(localStorage.getItem("photo-album-user"));
+        if (sessionData == null) {
+          return;
+        }
+        var token = sessionData.authToken;
+
+        console.dir(token);
+        var url = "https://localhost:44316/api/logout";
+        axios
+          .post(url, { auth_token: token })
+          .then(function (res) {
+            console.log(res);
+          })
+          .catch(function (err) {
+            console.error(err.response.data.erros);
+          })
+
+        this.$bus.$emit("auth-state", { action: "logout" });
+
+        localStorage.removeItem("photo-album-user");
+        this.$router.push("/");
+      }
+    },
+    created() {
+      var that = this;
+      this.$bus.$on("auth-state", this.handleAuthState);
+
+      console.dir(localStorage);
+      var sessionData = JSON.parse(localStorage.getItem("photo-album-user"));
+      if (sessionData) {
+        this.handleAuthState({ action: "login" });
+      } else {
+        this.handleAuthState({ action: "logout" });
+      }
+    },
+    beforeDestroy: function () {
+      this.$bus.$off('auth-state', this.handleAuthState);
     }
 };
 

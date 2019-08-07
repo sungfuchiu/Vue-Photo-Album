@@ -32,6 +32,17 @@ namespace API_Photo_Album
             services.AddDbContext<AlbumContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("AlbumPhotos")));
 
+            services.AddCors(options =>
+            {
+                // CorsPolicy 是自訂的 Policy 名稱
+                options.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowCredentials();
+                });
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -61,6 +72,7 @@ namespace API_Photo_Album
                 }
             });
 
+            app.UseCors("CorsPolicy");
             app.UseDefaultFiles();
             app.UseStaticFiles();
 

@@ -1,22 +1,63 @@
 <template>
 <div class="container">
     <div class="item-list" v-for="(photo, index) in photos" :key="index">
-        <itemListElement />
+        <itemListElement
+          :isLogin="isLogin"
+          :id="photo.id"
+          :title="photo.title"
+          :description="photo.description"
+          :url="'https://localhost:44316/'+photo.file_location.url"/>
     </div>
 </div>
 </template>
 
 <script>
 import ItemListElement from "@/components/ItemListElement";
+import axios from "axios";
 export default {
     data: function(){
         return {
             isLogin: false,
-            photos: [1,2,3,4,5]
+            photos: []
         };
     },
     components:{
         ItemListElement: ItemListElement
+    },
+    methods: {
+      handleAuthState: function (payload) {
+        var action = payload.action;
+        if (action == "login") {
+          this.isLogin = true;
+        } else if (action == "logout") {
+          this.isLogin = false;
+        }
+      }
+    },
+    created() {
+      this.$bus.$on("auth-state", this.handleAuthState);
+      var sessionData = JSON.parse(localStorage.getItem("photo-album-user"));
+      if (!!sessionData) {
+        this.handleAuthState({ action: "login" });
+      } else {
+        this.handleAuthState({ action: "logout" });
+      }
+
+      var indexUrl = "https://localhost:44316/api/Photos";
+      var hostUrl = "https://localhost:44316/";
+      var that = this;
+      axios
+        .get(indexUrl, {})
+        .then(function (res) {
+          console.dir(res.data.data);
+          that.photos = res.data.data;
+        })
+        .catch(function (err) {
+          console.error(err.response.data);
+        })
+    },
+    beforeDestroy() {
+      this.$bus.$off("auth-state", this.handleAuthState);
     }
 };
 </script>

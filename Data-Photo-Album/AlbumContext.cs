@@ -60,9 +60,11 @@ namespace Data_Photo_Album
         public string Password { get; set; }
         public string AuthToken { get; set; }
 
-        public string GetAuthToken(string email, string password)
+        public string GetAuthToken()
         {
-            return $"{email}{DateTime.UtcNow}".ToMD5();
+            if(string.IsNullOrEmpty(Email))
+                throw new ArgumentNullException();
+            return $"{Email}{DateTime.UtcNow}".ToMD5();
         }
     }
 

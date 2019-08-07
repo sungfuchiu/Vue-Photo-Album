@@ -19,15 +19,18 @@ namespace API_Photo_Album.Controllers
             _albumContext = db ?? throw new ArgumentNullException("AlbumContext");
         }
 
-        public ActionResult Post(string email, string password)
+        [HttpPost]
+        public ActionResult Post([FromBody]UserRequest request)
         {
-            var user = _albumContext.Set<User>().SingleOrDefault(a => a.Email == email && a.Password == password);
+            var user = _albumContext.Set<User>().SingleOrDefault(a => a.Email == request.email && a.Password == request.password);
             if (user != null)
             {
+                user.AuthToken = user.GetAuthToken();
+                _albumContext.SaveChanges();
                 return Ok(new
                 {
                     message = "Ok",
-                    auth_token = "",
+                    auth_token = user.AuthToken,
                     user_id = user.Id
                 });
             }
@@ -38,14 +41,6 @@ namespace API_Photo_Album.Controllers
                     message = "Email or Password is wrong"
                 });
             }
-        }
-
-        public ActionResult LogOut(string auth_token)
-        {
-            return Ok(new
-            {
-                message = "Ok"
-            });
         }
     }
 }

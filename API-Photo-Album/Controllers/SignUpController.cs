@@ -17,13 +17,26 @@ namespace API_Photo_Album.Controllers
         {
             _albumContext = db ?? throw new ArgumentNullException("AlbumContext");
         }
+        
         [HttpPost]
-        public ActionResult Post(string email, string password)
+        public ActionResult Post([FromBody]UserRequest request)
         {
+            string emailError = string.Empty;
+            string passwordError = string.Empty;
+
+            if (string.IsNullOrEmpty(request.password))
+                passwordError = "can't be blank";
             try
             {
-                var newUser = new User(email, password);
+                if (_albumContext.Set<User>().Any(a => a.Email == request.email))
+                {
+                    emailError = "has already been taken";
+                };
+                if(!string.IsNullOrEmpty(passwordError) || !string.IsNullOrEmpty(emailError))
+                    throw new Exception();
+                var newUser = new User(request.email, request.password);
                 _albumContext.Set<User>().Add(newUser);
+                _albumContext.SaveChanges();
                 return Ok(new
                 {
                     user_id = newUser.Id
@@ -36,8 +49,8 @@ namespace API_Photo_Album.Controllers
                     message = "Failed",
                     errors = new
                     {
-                        email = "has already been taken",
-                        password = "can't be blank"
+                        email = emailError,
+                        password = passwordError
                     }
                 });
             }

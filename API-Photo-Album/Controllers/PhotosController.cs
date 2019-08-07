@@ -17,34 +17,33 @@ namespace API_Photo_Album.Controllers
     public class PhotosController : ControllerBase
     {
         private AlbumContext _albumContext;
-        private readonly string _folder;
+        private readonly string _baseFolder;
+        private readonly string _folder = "UploadFolder";
         public PhotosController(AlbumContext db, IHostingEnvironment env)
         {
             _albumContext = db ?? throw new ArgumentNullException("albumContext");
-            _folder = $@"{env.WebRootPath}\UploadFolder";
+            _baseFolder = env.WebRootPath;
         }
         // GET api/Photos/
         [HttpGet]
-        public ActionResult Get()
-        {
-            return Ok(new
-            {
-                data = _albumContext.Set<Photo>().Select(a => new PhotosResponse()
-                {
-                    id = a.Id,
-                    date = a.Date,
-                    description = a.Description,
-                    file_location = new file_location(a.FileLocation),
-                    title = a.Title
-                }).ToList()
-            });
-        }
-        // GET api/Photos/
-        [HttpGet]
-        public ActionResult<PhotosResponse> Get(int id)
+        public ActionResult<PhotosResponse> Get(int? id)
         {
             try
             {
+                if (id == null)
+                {
+                    return Ok(new
+                    {
+                        data = _albumContext.Set<Photo>().Select(a => new PhotosResponse()
+                        {
+                            id = a.Id,
+                            date = a.Date,
+                            description = a.Description,
+                            file_location = new file_location(a.FileLocation.Replace('\\','/')),
+                            title = a.Title
+                        }).ToList()
+                    });
+                }
                 return Ok(
                     _albumContext.Set<Photo>().Select(a => new PhotosResponse()
                     {
@@ -70,26 +69,28 @@ namespace API_Photo_Album.Controllers
         {
             try
             {
-                var path = $@"{_folder}\{request.file_location.FileName}";
+                var path = $@"\{_folder}\{request.file_location.FileName}";
 
                 if (request.file_location.Length > 0)
                 {
-                    using (var stream = new FileStream(path, FileMode.Create))
+                    using (var stream = new FileStream(System.IO.Directory.GetCurrentDirectory() + @"/wwwroot/" + path, FileMode.Create))
                     {
                         await request.file_location.CopyToAsync(stream);
                     }
                 }
 
+                var urlPath = $@"{_folder}\{request.file_location.FileName}";
                 var newPhoto = new Photo()
                 {
                     Title = request.title,
                     Date = request.date,
                     Description = request.description,
-                    FileLocation = path,
+                    FileLocation = urlPath,
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow
                 };
                 _albumContext.Set<Photo>().Add(newPhoto);
+                _albumContext.SaveChanges();
                 return Ok(new
                 {
                     message = "",
@@ -101,7 +102,7 @@ namespace API_Photo_Album.Controllers
                         description = newPhoto.Description,
                         file_location = new
                         {
-                            url = path
+                            url = urlPath
                         },
                         created_at = newPhoto.CreatedAt,
                         updated_at = newPhoto.UpdatedAt

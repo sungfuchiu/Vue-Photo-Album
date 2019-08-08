@@ -15,7 +15,7 @@ export default{
     methods: {
       handleSignUp: function (payload) {
         const that = this;
-        const signupUrl = "https://localhost:44316/api/signup";
+        const signupUrl = "https://localhost:5001/api/signup";
         axios
           .post(signupUrl, payload)
           .then(function(res) {

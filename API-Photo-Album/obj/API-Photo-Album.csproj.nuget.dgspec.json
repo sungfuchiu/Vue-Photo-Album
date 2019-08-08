@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\API-photo-album\\api-photo-album\\API-Photo-Album.csproj": {}
+    "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\api-photo-album\\API-Photo-Album.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\API-photo-album\\api-photo-album\\API-Photo-Album.csproj": {
+    "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\api-photo-album\\API-Photo-Album.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\API-photo-album\\api-photo-album\\API-Photo-Album.csproj",
+        "projectUniqueName": "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\api-photo-album\\API-Photo-Album.csproj",
         "projectName": "API-Photo-Album",
-        "projectPath": "D:\\GitHub\\API-photo-album\\api-photo-album\\API-Photo-Album.csproj",
+        "projectPath": "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\api-photo-album\\API-Photo-Album.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\API-photo-album\\api-photo-album\\obj\\",
+        "outputPath": "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\api-photo-album\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\GitHub\\API-photo-album\\Data-Photo-Album\\Data-Photo-Album.csproj": {
-                "projectPath": "D:\\GitHub\\API-photo-album\\Data-Photo-Album\\Data-Photo-Album.csproj"
+              "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\Data-Photo-Album\\Data-Photo-Album.csproj": {
+                "projectPath": "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\Data-Photo-Album\\Data-Photo-Album.csproj"
               }
             }
           }
@@ -77,6 +77,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.0.2105168, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
@@ -87,14 +91,14 @@
         }
       }
     },
-    "D:\\GitHub\\API-photo-album\\Data-Photo-Album\\Data-Photo-Album.csproj": {
+    "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\Data-Photo-Album\\Data-Photo-Album.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\API-photo-album\\Data-Photo-Album\\Data-Photo-Album.csproj",
+        "projectUniqueName": "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\Data-Photo-Album\\Data-Photo-Album.csproj",
         "projectName": "Data-Photo-Album",
-        "projectPath": "D:\\GitHub\\API-photo-album\\Data-Photo-Album\\Data-Photo-Album.csproj",
+        "projectPath": "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\Data-Photo-Album\\Data-Photo-Album.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\API-photo-album\\Data-Photo-Album\\obj\\",
+        "outputPath": "D:\\GitHub\\API-Photo-Album\\API-Photo-Album\\Data-Photo-Album\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -77,7 +77,15 @@ namespace API_Photo_Album
             app.UseStaticFiles();
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseMvc(
+//                routes =>
+//            {
+//                routes.MapRoute(
+//                    name:"default",
+//                    template:"api/{controller=Photos}/{id?}"
+//                );
+//            }
+            );
         }
     }
 }

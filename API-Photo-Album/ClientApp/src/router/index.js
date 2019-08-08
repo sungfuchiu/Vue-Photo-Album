@@ -27,12 +27,12 @@ export default new Router({
       component: SignUp
     },
     {
-      path: '/Show',
+      path: '/Photos/:id',
       name: 'Show',
       component: Show
     },
     {
-      path: '/Edit',
+      path: '/Photos/Edit/:id',
       name: 'Edit',
       component: Edit
     },

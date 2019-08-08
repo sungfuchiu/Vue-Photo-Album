@@ -21,7 +21,7 @@ export default {
     methods: {
       postCreate: function (payload) {
         var that = this;
-        var createUrl = "https://localhost:44316/api/Photos";
+        var createUrl = "https://localhost:5001/api/Photos";
         var token = JSON.parse(localStorage.getItem("photo-album-user"))
           .authToken;
 

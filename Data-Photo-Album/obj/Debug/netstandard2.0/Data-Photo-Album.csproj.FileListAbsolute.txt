@@ -19,3 +19,12 @@ C:\Users\josep\GitHub\Vue-Photo-Album\Data-Photo-Album\obj\Debug\netstandard2.0\
 C:\Users\josep\GitHub\Vue-Photo-Album\Data-Photo-Album\bin\Debug\netstandard2.0\Data-Photo-Album.deps.json
 C:\Users\josep\GitHub\Vue-Photo-Album\Data-Photo-Album\bin\Debug\netstandard2.0\Data-Photo-Album.dll
 C:\Users\josep\GitHub\Vue-Photo-Album\Data-Photo-Album\bin\Debug\netstandard2.0\Data-Photo-Album.pdb
+D:\GitHub\API-Photo-Album\API-Photo-Album\Data-Photo-Album\bin\Debug\netstandard2.0\Data-Photo-Album.deps.json
+D:\GitHub\API-Photo-Album\API-Photo-Album\Data-Photo-Album\bin\Debug\netstandard2.0\Data-Photo-Album.dll
+D:\GitHub\API-Photo-Album\API-Photo-Album\Data-Photo-Album\bin\Debug\netstandard2.0\Data-Photo-Album.pdb
+D:\GitHub\API-Photo-Album\API-Photo-Album\Data-Photo-Album\obj\Debug\netstandard2.0\Data-Photo-Album.csprojAssemblyReference.cache
+D:\GitHub\API-Photo-Album\API-Photo-Album\Data-Photo-Album\obj\Debug\netstandard2.0\Data-Photo-Album.csproj.CoreCompileInputs.cache
+D:\GitHub\API-Photo-Album\API-Photo-Album\Data-Photo-Album\obj\Debug\netstandard2.0\Data-Photo-Album.AssemblyInfoInputs.cache
+D:\GitHub\API-Photo-Album\API-Photo-Album\Data-Photo-Album\obj\Debug\netstandard2.0\Data-Photo-Album.AssemblyInfo.cs
+D:\GitHub\API-Photo-Album\API-Photo-Album\Data-Photo-Album\obj\Debug\netstandard2.0\Data-Photo-Album.dll
+D:\GitHub\API-Photo-Album\API-Photo-Album\Data-Photo-Album\obj\Debug\netstandard2.0\Data-Photo-Album.pdb

@@ -16,16 +16,16 @@ namespace API_Photo_Album.Controllers
     [ApiController]
     public class PhotosController : ControllerBase
     {
-        private AlbumContext _albumContext;
+        private AlbumContext _db;
         private readonly string _baseFolder;
         private readonly string _folder = "UploadFolder";
         public PhotosController(AlbumContext db, IHostingEnvironment env)
         {
-            _albumContext = db ?? throw new ArgumentNullException("albumContext");
+            _db = db ?? throw new ArgumentNullException("albumContext");
             _baseFolder = env.WebRootPath;
         }
         // GET api/Photos/
-        [HttpGet]
+        [HttpGet("{id?}")]
         public ActionResult<PhotosResponse> Get(int? id)
         {
             try
@@ -34,7 +34,7 @@ namespace API_Photo_Album.Controllers
                 {
                     return Ok(new
                     {
-                        data = _albumContext.Set<Photo>().Select(a => new PhotosResponse()
+                        data = _db.Set<Photo>().Select(a => new PhotosResponse()
                         {
                             id = a.Id,
                             date = a.Date,
@@ -44,15 +44,16 @@ namespace API_Photo_Album.Controllers
                         }).ToList()
                     });
                 }
-                return Ok(
-                    _albumContext.Set<Photo>().Select(a => new PhotosResponse()
-                    {
-                        id = a.Id,
-                        date = a.Date,
-                        description = a.Description,
-                        file_location = new file_location(a.FileLocation),
-                        title = a.Title
-                    }).Single(a => a.id == id));
+                        return Ok(
+                        _db.Set<Photo>().Select(a => new PhotosResponse()
+                        {
+                            id = a.Id,
+                            date = a.Date,
+                            description = a.Description,
+                            file_location = new file_location(a.FileLocation.Replace('\\','/')),
+                            title = a.Title
+                        }).Single(a => a.id == id));
+                throw new Exception();
             }
             catch (Exception ex)
             {
@@ -89,8 +90,8 @@ namespace API_Photo_Album.Controllers
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow
                 };
-                _albumContext.Set<Photo>().Add(newPhoto);
-                _albumContext.SaveChanges();
+                _db.Set<Photo>().Add(newPhoto);
+                _db.SaveChanges();
                 return Ok(new
                 {
                     message = "",
@@ -126,7 +127,7 @@ namespace API_Photo_Album.Controllers
         {
             try
             {
-                var oldPhoto = _albumContext.Set<Photo>().Single(a => a.Id == id);
+                var oldPhoto = _db.Set<Photo>().Single(a => a.Id == id);
 
                 System.IO.File.Delete(oldPhoto.FileLocation);
                 if (request.file_location.Length > 0)
@@ -142,7 +143,7 @@ namespace API_Photo_Album.Controllers
                 oldPhoto.Date = request.date;
                 oldPhoto.UpdatedAt = DateTime.UtcNow;
 
-                _albumContext.SaveChanges();
+                _db.SaveChanges();
                 return Ok(new
                 {
                     message = "",
@@ -179,8 +180,8 @@ namespace API_Photo_Album.Controllers
         {
             try
             {
-                var photo = _albumContext.Set<Photo>().Single(a => a.Id == id);
-                _albumContext.Set<Photo>().Remove(photo);
+                var photo = _db.Set<Photo>().Single(a => a.Id == id);
+                _db.Set<Photo>().Remove(photo);
                 return Ok(new
                     {
                         message = "Photo destroy successfully!"

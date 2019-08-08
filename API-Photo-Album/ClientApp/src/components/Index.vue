@@ -6,7 +6,7 @@
           :id="photo.id"
           :title="photo.title"
           :description="photo.description"
-          :url="'https://localhost:44316/'+photo.file_location.url"/>
+          :url="'https://localhost:5001/'+photo.file_location.url"/>
     </div>
 </div>
 </template>
@@ -43,8 +43,8 @@ export default {
         this.handleAuthState({ action: "logout" });
       }
 
-      var indexUrl = "https://localhost:44316/api/Photos";
-      var hostUrl = "https://localhost:44316/";
+      var indexUrl = "https://localhost:5001/api/Photos";
+      var hostUrl = "https://localhost:5001/";
       var that = this;
       axios
         .get(indexUrl, {})

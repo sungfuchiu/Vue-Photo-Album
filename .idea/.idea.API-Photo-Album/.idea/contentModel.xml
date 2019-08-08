@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\USER\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\USER\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_API-Photo-Album.-733796020.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\API-Photo-Album\API-Photo-Album" t="IncludeFlat">
+      <e p="API-Photo-Album" t="IncludeRecursive">
+        <e p="API-Photo-Album.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientApp" t="Include">
+          <e p=".babelrc" t="Include" />
+          <e p=".editorconfig" t="Include" />
+          <e p=".gitignore" t="Include" />
+          <e p=".postcssrc.js" t="Include" />
+          <e p="build" t="Include">
+            <e p="build.js" t="Include" />
+            <e p="check-versions.js" t="Include" />
+            <e p="logo.png" t="Include" />
+            <e p="utils.js" t="Include" />
+            <e p="vue-loader.conf.js" t="Include" />
+            <e p="webpack.base.conf.js" t="Include" />
+            <e p="webpack.dev.conf.js" t="Include" />
+            <e p="webpack.prod.conf.js" t="Include" />
+          </e>
+          <e p="config" t="Include">
+            <e p="dev.env.js" t="Include" />
+            <e p="index.js" t="Include" />
+            <e p="prod.env.js" t="Include" />
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="node_modules\@types" t="IncludeRecursive" />
+          <e p="node_modules\autoprefixer" t="IncludeRecursive" />
+          <e p="node_modules\axios" t="IncludeRecursive" />
+          <e p="node_modules\babel-core" t="IncludeRecursive" />
+          <e p="node_modules\babel-helper-vue-jsx-merge-props" t="IncludeRecursive" />
+          <e p="node_modules\babel-loader" t="IncludeRecursive" />
+          <e p="node_modules\babel-plugin-syntax-jsx" t="IncludeRecursive" />
+          <e p="node_modules\babel-plugin-transform-runtime" t="IncludeRecursive" />
+          <e p="node_modules\babel-plugin-transform-vue-jsx" t="IncludeRecursive" />
+          <e p="node_modules\babel-preset-env" t="IncludeRecursive" />
+          <e p="node_modules\babel-preset-stage-2" t="IncludeRecursive" />
+          <e p="node_modules\chalk" t="IncludeRecursive" />
+          <e p="node_modules\copy-webpack-plugin" t="IncludeRecursive" />
+          <e p="node_modules\css-loader" t="IncludeRecursive" />
+          <e p="node_modules\extract-text-webpack-plugin" t="IncludeRecursive" />
+          <e p="node_modules\file-loader" t="IncludeRecursive" />
+          <e p="node_modules\friendly-errors-webpack-plugin" t="IncludeRecursive" />
+          <e p="node_modules\html-webpack-plugin" t="IncludeRecursive" />
+          <e p="node_modules\node-notifier" t="IncludeRecursive" />
+          <e p="node_modules\optimize-css-assets-webpack-plugin" t="IncludeRecursive" />
+          <e p="node_modules\ora" t="IncludeRecursive" />
+          <e p="node_modules\portfinder" t="IncludeRecursive" />
+          <e p="node_modules\postcss-import" t="IncludeRecursive" />
+          <e p="node_modules\postcss-loader" t="IncludeRecursive" />
+          <e p="node_modules\postcss-url" t="IncludeRecursive" />
+          <e p="node_modules\rimraf" t="IncludeRecursive" />
+          <e p="node_modules\semver" t="IncludeRecursive" />
+          <e p="node_modules\shelljs" t="IncludeRecursive" />
+          <e p="node_modules\uglifyjs-webpack-plugin" t="IncludeRecursive" />
+          <e p="node_modules\url-loader" t="IncludeRecursive" />
+          <e p="node_modules\vue" t="IncludeRecursive" />
+          <e p="node_modules\vue-loader" t="IncludeRecursive" />
+          <e p="node_modules\vue-router" t="IncludeRecursive" />
+          <e p="node_modules\vue-style-loader" t="IncludeRecursive" />
+          <e p="node_modules\vue-template-compiler" t="IncludeRecursive" />
+          <e p="node_modules\vuejs-datepicker" t="IncludeRecursive" />
+          <e p="node_modules\webpack" t="IncludeRecursive" />
+          <e p="node_modules\webpack-bundle-analyzer" t="IncludeRecursive" />
+          <e p="node_modules\webpack-dev-server" t="IncludeRecursive" />
+          <e p="node_modules\webpack-merge" t="IncludeRecursive" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="README.md" t="Include" />
+          <e p="src" t="Include">
+            <e p="App.vue" t="Include" />
+            <e p="assets" t="Include">
+              <e p="logo.png" t="Include" />
+            </e>
+            <e p="components" t="Include">
+              <e p="AuthPanel.vue" t="Include" />
+              <e p="Edit.vue" t="Include" />
+              <e p="Header.vue" t="Include" />
+              <e p="HelloWorld.vue" t="Include" />
+              <e p="ImgDisplay.vue" t="Include" />
+              <e p="Index.vue" t="Include" />
+              <e p="ItemListElement.vue" t="Include" />
+              <e p="Login.vue" t="Include" />
+              <e p="New.vue" t="Include" />
+              <e p="PhotoForm.vue" t="Include" />
+              <e p="Show.vue" t="Include" />
+              <e p="SignUp.vue" t="Include" />
+            </e>
+            <e p="main.js" t="Include" />
+            <e p="router" t="Include">
+              <e p="index.js" t="Include" />
+            </e>
+          </e>
+          <e p="static" t="Include">
+            <e p=".gitkeep" t="Include" />
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="BaseFormat.cs" t="Include" />
+          <e p="LoginController.cs" t="Include" />
+          <e p="LogoutController.cs" t="Include" />
+          <e p="PhotosController.cs" t="Include" />
+          <e p="PhotosRequest.cs" t="Include" />
+          <e p="PhotosResponse.cs" t="Include" />
+          <e p="SignUpController.cs" t="Include" />
+          <e p="UserRequest.cs" t="Include" />
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="API-Photo-Album.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="index.html" t="Include" />
+          <e p="static" t="Include">
+            <e p="css" t="Include">
+              <e p="app.81a3a305ae05d1f0e9fc3097bfd17df3.css" t="Include" />
+              <e p="app.81a3a305ae05d1f0e9fc3097bfd17df3.css.map" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="app.bf74eaed46f56bb767c1.js" t="Include" />
+              <e p="app.bf74eaed46f56bb767c1.js.map" t="Include" />
+              <e p="manifest.2ae2e69a05c33dfc65f8.js" t="Include" />
+              <e p="manifest.2ae2e69a05c33dfc65f8.js.map" t="Include" />
+              <e p="vendor.415a59f3150782efaa6d.js" t="Include" />
+              <e p="vendor.415a59f3150782efaa6d.js.map" t="Include" />
+            </e>
+          </e>
+          <e p="UploadFolder" t="Include">
+            <e p="20120221_073709.jpg" t="Include" />
+            <e p="IWantAll2.jpg" t="Include" />
+            <e p="p_skin_a_01_01__A_1.jpg" t="Include" />
+            <e p="tenBrother.png" t="Include" />
+            <e p="十兄弟 - 複製.png" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="API-Photo-Album.sln" t="IncludeFlat" />
+      <e p="Data-Photo-Album" t="IncludeRecursive">
+        <e p="AlbumContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data-Photo-Album.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20190806140900_Initial.cs" t="Include" />
+          <e p="20190806140900_Initial.Designer.cs" t="Include" />
+          <e p="AlbumContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Data-Photo-Album.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

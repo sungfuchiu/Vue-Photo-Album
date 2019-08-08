@@ -1,7 +1,7 @@
 <template>
 <div class="show">
     <div class="photo-container">
-        <ImgDisplay/>
+        <ImgDisplay :url="url" v-if="url!='' && url != null"/>
     </div>
     <div class="main-container">
         <h3 class="main-container"></h3>
@@ -13,6 +13,7 @@
 
 <script>
 import ImgDisplay from "@/components/ImgDisplay";
+import axios from "axios";
 export default{
     data: function(){
         return {
@@ -24,6 +25,29 @@ export default{
     },
     components:{
         ImgDisplay: ImgDisplay
+    },
+    created: function(){
+      var that = this;
+      var id = this.$route.params.id;
+      var showUrl = "https://localhost:5001/api/Photos/" + id;
+
+      if(localStorage.getItem("photo-album-user")){
+        var token = JSON.parse(localStorage.getItem("photo-album-user"))
+                    .authToken;
+        var params = { auth_token: token};
+      }
+      axios
+        .get(showUrl)
+        .then(function(res){
+          that.title = res.data.title;
+          that.date = res.data.date;
+          that.description = res.data.description;
+          that.url = "https://localhost:5001/" + res.data.file_location.url;
+        })
+        .catch(function(err){
+          console.error(err.response.data);
+          that.$router.push("/login");
+        })
     }
 };
 </script>

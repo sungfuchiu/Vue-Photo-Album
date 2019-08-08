@@ -61,7 +61,7 @@ export default{
         var token = sessionData.authToken;
 
         console.dir(token);
-        var url = "https://localhost:44316/api/logout";
+        var url = "https://localhost:5001/api/logout";
         axios
           .post(url, { auth_token: token })
           .then(function (res) {

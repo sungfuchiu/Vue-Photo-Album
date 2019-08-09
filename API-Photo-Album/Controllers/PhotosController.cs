@@ -127,12 +127,15 @@ namespace API_Photo_Album.Controllers
         {
             try
             {
+                if (!_db.Set<User>().Any(a => a.AuthToken == request.auth_token))
+                    return BadRequest();
                 var oldPhoto = _db.Set<Photo>().Single(a => a.Id == id);
 
-                System.IO.File.Delete(oldPhoto.FileLocation);
+                System.IO.File.Delete(@"wwwroot/" + oldPhoto.FileLocation);
+                var path = $@"\{_folder}\{request.file_location.FileName}";
                 if (request.file_location.Length > 0)
                 {
-                    using (var stream = new FileStream(oldPhoto.FileLocation, FileMode.Create))
+                    using (var stream = new FileStream(System.IO.Directory.GetCurrentDirectory() + @"/wwwroot/" + path, FileMode.Create))
                     {
                         await request.file_location.CopyToAsync(stream);
                     }
@@ -140,6 +143,7 @@ namespace API_Photo_Album.Controllers
 
                 oldPhoto.Title = request.title;
                 oldPhoto.Description = request.description;
+                oldPhoto.FileLocation = path;
                 oldPhoto.Date = request.date;
                 oldPhoto.UpdatedAt = DateTime.UtcNow;
 
@@ -180,8 +184,11 @@ namespace API_Photo_Album.Controllers
         {
             try
             {
+                if (!_db.Set<User>().Any(a => a.AuthToken == auth_token))
+                    return BadRequest();
                 var photo = _db.Set<Photo>().Single(a => a.Id == id);
                 _db.Set<Photo>().Remove(photo);
+                _db.SaveChanges();
                 return Ok(new
                     {
                         message = "Photo destroy successfully!"

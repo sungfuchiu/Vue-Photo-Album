@@ -1,12 +1,13 @@
 <template>
 <div class="container">
-    <div class="item-list" v-for="(photo, index) in photos" :key="index">
+    <div class="item-list" v-for="(photo, index) in photos" :key="photo.id">
         <itemListElement
           :isLogin="isLogin"
           :id="photo.id"
           :title="photo.title"
           :description="photo.description"
-          :url="'https://localhost:5001/'+photo.file_location.url"/>
+          :url="'https://localhost:5001/'+photo.file_location.url"
+          @destroy-item="handleDestroyItem(index)"/>
     </div>
 </div>
 </template>
@@ -32,6 +33,10 @@ export default {
         } else if (action == "logout") {
           this.isLogin = false;
         }
+      },
+      handleDestroyItem: function(index){
+        console.log("delete photo "+index);
+        this.photos.splice(index, 1);
       }
     },
     created() {

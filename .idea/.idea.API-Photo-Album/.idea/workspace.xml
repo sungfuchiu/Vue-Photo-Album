@@ -2,55 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7c5baf1-9011-49d8-9623-8c0cae941100" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Edit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Edit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/New.vue" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/New.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/Show.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/SignUp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/SignUp.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/ItemListElement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/ClientApp/src/components/ItemListElement.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/Controllers/PhotosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/Controllers/PhotosController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/API-Photo-Album.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/API-Photo-Album.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/API-Photo-Album.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/API-Photo-Album.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/API-Photo-Album.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/API-Photo-Album.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/API-Photo-Album.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/API-Photo-Album.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/Data-Photo-Album.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/Data-Photo-Album.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/Data-Photo-Album.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/bin/Debug/netcoreapp2.2/Data-Photo-Album.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/API-Photo-Album.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/API-Photo-Album.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/API-Photo-Album.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/API-Photo-Album.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/API-Photo-Album.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/API-Photo-Album.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.RazorAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/Debug/netcoreapp2.2/API-Photo-Album.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/UploadFolder/IWantAll2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/wwwroot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/css/app.23474450c818bc0fcaabb55c2ba830d9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/css/app.23474450c818bc0fcaabb55c2ba830d9.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/app.1c941a8db741bfc21943.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/app.1c941a8db741bfc21943.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/manifest.2ae2e69a05c33dfc65f8.js" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/manifest.2ae2e69a05c33dfc65f8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/css/app.81a3a305ae05d1f0e9fc3097bfd17df3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/css/app.81a3a305ae05d1f0e9fc3097bfd17df3.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/app.bf74eaed46f56bb767c1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/app.bf74eaed46f56bb767c1.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/vendor.415a59f3150782efaa6d.js" beforeDir="false" afterPath="$PROJECT_DIR$/API-Photo-Album/wwwroot/static/js/vendor.415a59f3150782efaa6d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/bin/Debug/netstandard2.0/Data-Photo-Album.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/bin/Debug/netstandard2.0/Data-Photo-Album.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/bin/Debug/netstandard2.0/Data-Photo-Album.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/bin/Debug/netstandard2.0/Data-Photo-Album.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/bin/Debug/netstandard2.0/Data-Photo-Album.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/bin/Debug/netstandard2.0/Data-Photo-Album.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/Data-Photo-Album.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/Data-Photo-Album.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/Data-Photo-Album.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/Data-Photo-Album.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/Debug/netstandard2.0/Data-Photo-Album.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Photo-Album/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Photo-Album/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,50 +27,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/PhotosController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+            <state relative-caret-position="160">
+              <caret line="191" column="29" lean-forward="true" selection-start-line="191" selection-start-column="29" selection-end-line="191" selection-end-column="29" />
               <folding>
-                <marker date="1565245478526" expanded="false" signature="6:324" ph="..." />
-                <marker date="1565245478526" expanded="true" signature="363:6667" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="468:6665" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="685:821" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="932:2316" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="958:2064" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="1004:1543" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="1077:1523" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="1184:1491" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="1677:1984" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="2097:2306" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="2183:2290" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="2442:4332" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="2468:4067" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="2613:2904" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="2790:2886" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="3043:3342" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="3473:4051" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="3562:4033" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="3828:3897" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="4100:4322" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="4161:4306" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="4216:4288" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="4472:6116" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="4498:5851" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="4702:4951" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="4837:4933" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="5243:5835" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="5332:5817" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="5598:5681" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="5884:6106" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="5945:6090" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="6000:6072" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="6239:6659" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="6265:6551" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="6448:6535" ph="{...}" />
-                <marker date="1565245478526" expanded="true" signature="6584:6649" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="6:324" ph="..." />
+                <marker date="1565318619303" expanded="true" signature="363:7118" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="468:7116" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="685:821" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="932:2316" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="958:2064" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="1004:1543" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="1077:1523" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="1184:1491" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="1677:1984" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="2097:2306" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="2183:2290" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="2442:4332" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="2468:4067" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="2613:2904" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="2790:2886" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="3043:3342" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="3473:4051" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="3562:4033" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="3828:3897" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="4100:4322" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="4161:4306" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="4216:4288" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="4472:6417" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="4498:6152" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="4915:5206" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="5092:5188" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="5544:6136" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="5633:6118" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="5899:5982" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="6185:6407" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="6246:6391" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="6301:6373" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="6540:7110" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="6566:7002" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="6899:6986" ph="{...}" />
+                <marker date="1565318619303" expanded="true" signature="7035:7100" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -111,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/36/00638346/ExceptionDispatchInfo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="1456">
               <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
               <folding>
                 <marker date="1565244853087" expanded="true" signature="0:360" ph="/* Decompiled with JetBrains decompiler ... */" />
@@ -141,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data-Photo-Album/AlbumContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="352">
               <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding>
                 <marker date="1565226712864" expanded="false" signature="6:185" ph="..." />
@@ -163,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API-Photo-Album/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="880">
               <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <marker date="1565244978101" expanded="false" signature="6:463" ph="..." />
@@ -187,7 +155,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/LoginController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="176">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <marker date="1565226712813" expanded="false" signature="6:254" ph="..." />
@@ -207,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API-Photo-Album/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="48">
               <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <marker date="1565226712843" expanded="false" signature="6:255" ph="..." />
@@ -229,13 +197,14 @@
     <setting file="file://$PROJECT_DIR$/API-Photo-Album/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/PhotosResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/7d/f51f80e1/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/LogoutController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/BaseFormat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/UserRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/SignUpController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API-Photo-Album/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data-Photo-Album/AlbumContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API-Photo-Album/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/36/00638346/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -266,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -283,36 +251,21 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="API-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
               <item name="API-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="API-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="API-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="API-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
               <item name="API-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
               <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="API-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Data-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="API-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Data-Photo-Album" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UploadFolder" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -378,11 +331,12 @@
       <option name="presentableId" value="Default" />
       <updated>1565227616243</updated>
       <workItem from="1565227620975" duration="12585000" />
+      <workItem from="1565316195767" duration="3343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12585000" />
+    <option name="totallyTimeSpent" value="15928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,39 +349,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" weight="0.32917964" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32917964" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32917964" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" weight="0.32917964" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32917964" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32917964" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32917964" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.32917964" />
+      <window_info anchor="bottom" id="REST Client" order="14" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="17" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -463,6 +418,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/API-Photo-Album/Controllers/PhotosController.cs</url>
+          <line>183</line>
+          <properties documentPath="$PROJECT_DIR$/API-Photo-Album/Controllers/PhotosController.cs" initialLine="183">
+            <startOffsets>
+              <option value="6549" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6550" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -578,60 +546,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Photo-Album/AlbumContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <marker date="1565226712864" expanded="false" signature="6:185" ph="..." />
-            <marker date="1565226712864" expanded="true" signature="213:2148" ph="{...}" />
-            <marker date="1565226712864" expanded="true" signature="253:812" ph="{...}" />
-            <marker date="1565226712864" expanded="true" signature="311:806" ph="{...}" />
-            <marker date="1565226712864" expanded="true" signature="412:796" ph="{...}" />
-            <marker date="1565226712864" expanded="true" signature="854:1049" ph="{...}" />
-            <marker date="1565226712864" expanded="true" signature="1084:1390" ph="{...}" />
-            <marker date="1565226712864" expanded="true" signature="1413:2010" ph="{...}" />
-            <marker date="1565226712864" expanded="true" signature="1470:1550" ph="{...}" />
-            <marker date="1565226712864" expanded="true" signature="1833:2004" ph="{...}" />
-            <marker date="1565226712864" expanded="true" signature="2037:2145" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API-Photo-Album/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <marker date="1565226712843" expanded="false" signature="6:255" ph="..." />
-            <marker date="1565226712843" expanded="true" signature="282:609" ph="{...}" />
-            <marker date="1565226712843" expanded="true" signature="309:607" ph="{...}" />
-            <marker date="1565226712843" expanded="true" signature="362:436" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/LoginController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1565226712813" expanded="false" signature="6:254" ph="..." />
-            <marker date="1565226712813" expanded="true" signature="293:1361" ph="{...}" />
-            <marker date="1565226712813" expanded="true" signature="397:1359" ph="{...}" />
-            <marker date="1565226712813" expanded="true" signature="495:598" ph="{...}" />
-            <marker date="1565226712813" expanded="true" signature="682:1353" ph="{...}" />
-            <marker date="1565226712813" expanded="true" signature="853:1171" ph="{...}" />
-            <marker date="1565226712813" expanded="true" signature="1013:1155" ph="{...}" />
-            <marker date="1565226712813" expanded="true" signature="1188:1343" ph="{...}" />
-            <marker date="1565226712813" expanded="true" signature="1249:1327" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/36/00638346/ExceptionDispatchInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="1456">
           <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
           <folding>
             <marker date="1565244853087" expanded="true" signature="0:360" ph="/* Decompiled with JetBrains decompiler ... */" />
@@ -657,9 +574,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data-Photo-Album/AlbumContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <marker date="1565226712864" expanded="false" signature="6:185" ph="..." />
+            <marker date="1565226712864" expanded="true" signature="213:2148" ph="{...}" />
+            <marker date="1565226712864" expanded="true" signature="253:812" ph="{...}" />
+            <marker date="1565226712864" expanded="true" signature="311:806" ph="{...}" />
+            <marker date="1565226712864" expanded="true" signature="412:796" ph="{...}" />
+            <marker date="1565226712864" expanded="true" signature="854:1049" ph="{...}" />
+            <marker date="1565226712864" expanded="true" signature="1084:1390" ph="{...}" />
+            <marker date="1565226712864" expanded="true" signature="1413:2010" ph="{...}" />
+            <marker date="1565226712864" expanded="true" signature="1470:1550" ph="{...}" />
+            <marker date="1565226712864" expanded="true" signature="1833:2004" ph="{...}" />
+            <marker date="1565226712864" expanded="true" signature="2037:2145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/API-Photo-Album/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="880">
           <caret line="73" selection-start-line="73" selection-end-line="73" />
           <folding>
             <marker date="1565244978101" expanded="false" signature="6:463" ph="..." />
@@ -679,48 +616,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/LoginController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1565226712813" expanded="false" signature="6:254" ph="..." />
+            <marker date="1565226712813" expanded="true" signature="293:1361" ph="{...}" />
+            <marker date="1565226712813" expanded="true" signature="397:1359" ph="{...}" />
+            <marker date="1565226712813" expanded="true" signature="495:598" ph="{...}" />
+            <marker date="1565226712813" expanded="true" signature="682:1353" ph="{...}" />
+            <marker date="1565226712813" expanded="true" signature="853:1171" ph="{...}" />
+            <marker date="1565226712813" expanded="true" signature="1013:1155" ph="{...}" />
+            <marker date="1565226712813" expanded="true" signature="1188:1343" ph="{...}" />
+            <marker date="1565226712813" expanded="true" signature="1249:1327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API-Photo-Album/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1565226712843" expanded="false" signature="6:255" ph="..." />
+            <marker date="1565226712843" expanded="true" signature="282:609" ph="{...}" />
+            <marker date="1565226712843" expanded="true" signature="309:607" ph="{...}" />
+            <marker date="1565226712843" expanded="true" signature="362:436" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/7d/f51f80e1/ExecutionContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="141" column="66" lean-forward="true" selection-start-line="141" selection-start-column="66" selection-end-line="141" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/API-Photo-Album/Controllers/PhotosController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+        <state relative-caret-position="160">
+          <caret line="191" column="29" lean-forward="true" selection-start-line="191" selection-start-column="29" selection-end-line="191" selection-end-column="29" />
           <folding>
-            <marker date="1565245478526" expanded="false" signature="6:324" ph="..." />
-            <marker date="1565245478526" expanded="true" signature="363:6667" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="468:6665" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="685:821" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="932:2316" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="958:2064" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="1004:1543" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="1077:1523" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="1184:1491" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="1677:1984" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="2097:2306" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="2183:2290" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="2442:4332" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="2468:4067" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="2613:2904" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="2790:2886" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="3043:3342" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="3473:4051" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="3562:4033" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="3828:3897" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="4100:4322" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="4161:4306" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="4216:4288" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="4472:6116" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="4498:5851" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="4702:4951" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="4837:4933" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="5243:5835" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="5332:5817" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="5598:5681" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="5884:6106" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="5945:6090" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="6000:6072" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="6239:6659" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="6265:6551" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="6448:6535" ph="{...}" />
-            <marker date="1565245478526" expanded="true" signature="6584:6649" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="6:324" ph="..." />
+            <marker date="1565318619303" expanded="true" signature="363:7118" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="468:7116" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="685:821" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="932:2316" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="958:2064" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="1004:1543" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="1077:1523" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="1184:1491" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="1677:1984" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="2097:2306" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="2183:2290" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="2442:4332" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="2468:4067" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="2613:2904" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="2790:2886" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="3043:3342" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="3473:4051" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="3562:4033" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="3828:3897" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="4100:4322" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="4161:4306" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="4216:4288" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="4472:6417" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="4498:6152" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="4915:5206" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="5092:5188" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="5544:6136" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="5633:6118" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="5899:5982" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="6185:6407" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="6246:6391" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="6301:6373" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="6540:7110" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="6566:7002" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="6899:6986" ph="{...}" />
+            <marker date="1565318619303" expanded="true" signature="7035:7100" ph="{...}" />
           </folding>
         </state>
       </provider>
